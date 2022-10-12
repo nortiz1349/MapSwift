@@ -15,6 +15,7 @@
 		687119FF28F65B2D00C04A5A /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687119FE28F65B2D00C04A5A /* LocationsDataService.swift */; };
 		68711A0128F65C7500C04A5A /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68711A0028F65C7500C04A5A /* LocationsView.swift */; };
 		68711A0328F65FEC00C04A5A /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68711A0228F65FEC00C04A5A /* LocationsViewModel.swift */; };
+		68711A0528F66A9200C04A5A /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68711A0428F66A9200C04A5A /* LocationsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		687119FE28F65B2D00C04A5A /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
 		68711A0028F65C7500C04A5A /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 		68711A0228F65FEC00C04A5A /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		68711A0428F66A9200C04A5A /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				68711A0028F65C7500C04A5A /* LocationsView.swift */,
+				68711A0428F66A9200C04A5A /* LocationsListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				687119FF28F65B2D00C04A5A /* LocationsDataService.swift in Sources */,
+				68711A0528F66A9200C04A5A /* LocationsListView.swift in Sources */,
 				68711A0328F65FEC00C04A5A /* LocationsViewModel.swift in Sources */,
 				687119EB28F6584D00C04A5A /* ContentView.swift in Sources */,
 				68711A0128F65C7500C04A5A /* LocationsView.swift in Sources */,
