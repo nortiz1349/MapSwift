@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		687119E928F6584D00C04A5A /* MapSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687119E828F6584D00C04A5A /* MapSwiftApp.swift */; };
-		687119EB28F6584D00C04A5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687119EA28F6584D00C04A5A /* ContentView.swift */; };
 		687119F028F6584E00C04A5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 687119EF28F6584E00C04A5A /* Preview Assets.xcassets */; };
 		687119F728F658DE00C04A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 687119F628F658DE00C04A5A /* Assets.xcassets */; };
 		687119FC28F659D800C04A5A /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687119FB28F659D800C04A5A /* Location.swift */; };
@@ -16,12 +15,12 @@
 		68711A0128F65C7500C04A5A /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68711A0028F65C7500C04A5A /* LocationsView.swift */; };
 		68711A0328F65FEC00C04A5A /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68711A0228F65FEC00C04A5A /* LocationsViewModel.swift */; };
 		68711A0528F66A9200C04A5A /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68711A0428F66A9200C04A5A /* LocationsListView.swift */; };
+		68711A0728F696E500C04A5A /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68711A0628F696E500C04A5A /* LocationPreviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		687119E528F6584D00C04A5A /* MapSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		687119E828F6584D00C04A5A /* MapSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSwiftApp.swift; sourceTree = "<group>"; };
-		687119EA28F6584D00C04A5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		687119EF28F6584E00C04A5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		687119F628F658DE00C04A5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		687119FB28F659D800C04A5A /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
@@ -29,6 +28,7 @@
 		68711A0028F65C7500C04A5A /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 		68711A0228F65FEC00C04A5A /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
 		68711A0428F66A9200C04A5A /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
+		68711A0628F696E500C04A5A /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				687119E828F6584D00C04A5A /* MapSwiftApp.swift */,
-				687119EA28F6584D00C04A5A /* ContentView.swift */,
 				687119FD28F65B1A00C04A5A /* DataServices */,
 				687119F928F659A900C04A5A /* Views */,
 				687119FA28F659AF00C04A5A /* ViewModels */,
@@ -94,6 +93,7 @@
 			children = (
 				68711A0028F65C7500C04A5A /* LocationsView.swift */,
 				68711A0428F66A9200C04A5A /* LocationsListView.swift */,
+				68711A0628F696E500C04A5A /* LocationPreviewView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -187,8 +187,8 @@
 				687119FF28F65B2D00C04A5A /* LocationsDataService.swift in Sources */,
 				68711A0528F66A9200C04A5A /* LocationsListView.swift in Sources */,
 				68711A0328F65FEC00C04A5A /* LocationsViewModel.swift in Sources */,
-				687119EB28F6584D00C04A5A /* ContentView.swift in Sources */,
 				68711A0128F65C7500C04A5A /* LocationsView.swift in Sources */,
+				68711A0728F696E500C04A5A /* LocationPreviewView.swift in Sources */,
 				687119FC28F659D800C04A5A /* Location.swift in Sources */,
 				687119E928F6584D00C04A5A /* MapSwiftApp.swift in Sources */,
 			);
